@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BATIRENOV PRO | Artisan Rénovation Oise & Paris</title>
+  <meta name="description" content="BATIRENOV PRO - Rénovation, peinture, multiservices et entretien dans l'Oise et à Paris. Devis gratuit sous 24h.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Poppins',sans-serif;color:#222;line-height:1.6;background:#fff}
+    .container{width:90%;max-width:1200px;margin:auto}
+    header{background:#fff;padding:20px 0;box-shadow:0 2px 15px rgba(0,0,0,.08);position:sticky;top:0;z-index:1000}
+    .header-content{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+    .logo img{height:90px}
+    nav a{color:#0b2545;text-decoration:none;margin-left:25px;font-weight:600;transition:.3s}
+    nav a:hover{color:#fca311}
+    .hero{background:linear-gradient(rgba(11,37,69,.85),rgba(11,37,69,.85)),url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80') center/cover;color:#fff;text-align:center;padding:120px 20px}
+    .hero h1{font-size:3rem;margin-bottom:20px}
+    .hero p{font-size:1.2rem;margin-bottom:35px}
+    .btn{display:inline-block;padding:16px 35px;margin:10px;border-radius:8px;text-decoration:none;font-weight:700;transition:.3s}
+    .btn-primary{background:#fca311;color:#fff}
+    .btn-primary:hover{background:#e59400;transform:translateY(-3px)}
+    .btn-secondary{border:2px solid #fff;color:#fff}
+    .btn-secondary:hover{background:#fff;color:#0b2545}
+    section{padding:80px 0}
+    h2{text-align:center;margin-bottom:50px;color:#0b2545;font-size:2.5rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+    .card{background:#fff;padding:35px;border-radius:15px;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.3s}
+    .card:hover{transform:translateY(-10px)}
+    .card h3{color:#0b2545;margin-bottom:15px}
+    .zones{background:#f8fafc;border-radius:20px;padding:50px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.05)}
+    .reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+    .review{background:#fff;padding:30px;border-radius:15px;box-shadow:0 8px 25px rgba(0,0,0,.07)}
+    .contact-box{max-width:750px;margin:auto;background:#fff;padding:50px;border-radius:20px;box-shadow:0 15px 40px rgba(0,0,0,.1)}
+    input,textarea{width:100%;padding:16px;margin-bottom:20px;border:1px solid #ddd;border-radius:8px;font-family:'Poppins'}
+    button{width:100%;padding:18px;border:none;border-radius:8px;background:#0b2545;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
+    button:hover{background:#081a31}
+    .contact-info{margin-top:30px;text-align:center;font-size:1.1rem}
+    .contact-info p{margin:12px 0}
+    .whatsapp{position:fixed;bottom:90px;right:25px;background:#25D366;color:#fff;width:65px;height:65px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;text-decoration:none;box-shadow:0 10px 25px rgba(0,0,0,.25);z-index:1000}
+    .sticky-call{position:fixed;bottom:0;left:0;width:100%;background:#fca311;text-align:center;padding:18px;z-index:999}
+    .sticky-call a{color:#fff;text-decoration:none;font-weight:700;font-size:1.1rem}
+    footer{background:#0b2545;color:#fff;text-align:center;padding:40px 20px 90px}
+    @media(max-width:768px){
+      .hero h1{font-size:2.2rem}
+      nav{margin-top:20px}
+      nav a{display:block;margin:10px 0}
+      .contact-box{padding:30px 20px}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container header-content">
+    <div class="logo">
+      <img src="logo.png" alt="BATIRENOV PRO">
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#zones">Zones</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Rénovation & Maintenance du Bâtiment</h1>
+    <p>Oise • Paris • Devis Gratuit sous 24h</p>
+    <a href="tel:0776899490" class="btn btn-primary">📞 Appeler</a>
+    <a href="#contact" class="btn btn-secondary">📩 Demander un devis</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2>Nos Services</h2>
+    <div class="grid">
+      <div class="card"><h3>Peinture</h3><p>Travaux de peinture intérieure et extérieure avec finitions haut de gamme.</p></div>
+      <div class="card"><h3>Rénovation</h3><p>Rénovation complète d'appartements, maisons et locaux professionnels.</p></div>
+      <div class="card"><h3>Multiservices</h3><p>Bricolage, réparations, montage et petites interventions rapides.</p></div>
+      <div class="card"><h3>Maçonnerie</h3><p>Petits travaux de maçonnerie, réparations et entretien général.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="zones">
+  <div class="container">
+    <h2>Zones d'Intervention</h2>
+    <div class="zones">
+      <p><strong>Oise :</strong> Beauvais, Creil, Compiègne, Senlis</p>
+      <p><strong>Île-de-France :</strong> Paris et toute la région parisienne</p>
+    </div>
+  </div>
+</section>
+
+<section id="avis">
+  <div class="container">
+    <h2>Avis Clients</h2>
+    <div class="reviews">
+      <div class="review">⭐⭐⭐⭐⭐<br><br>Travail impeccable, équipe sérieuse et professionnelle.</div>
+      <div class="review">⭐⭐⭐⭐⭐<br><br>Intervention rapide, devis clair et excellent résultat.</div>
+      <div class="review">⭐⭐⭐⭐⭐<br><br>Très bon rapport qualité-prix. Je recommande vivement.</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Demandez Votre Devis Gratuit</h2>
+    <div class="contact-box">
+      <form action="https://formspree.io/f/xrblypja" method="POST">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <input type="tel" name="telephone" placeholder="Votre téléphone" required>
+        <textarea name="message" rows="6" placeholder="Décrivez votre projet" required></textarea>
+        <input type="hidden" name="_subject" value="Nouvelle demande de devis - BATIRENOV PRO">
+        <input type="hidden" name="_captcha" value="false">
+        <button type="submit">Envoyer la demande</button>
+      </form>
+
+      <div class="contact-info">
+        <p>📞 07 76 89 94 90</p>
+        <p>📞 07 84 76 22 50</p>
+        <p>📧 batirenov.pro.60.oise@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/33776899490" class="whatsapp">💬</a>
+
+<div class="sticky-call">
+  <a href="tel:0776899490">📞 Appelez maintenant pour un devis gratuit</a>
+</div>
+
+<footer>
+  <p>© 2025 BATIRENOV PRO - Oise & Paris</p>
+</footer>
+
+</body>
+</html>
